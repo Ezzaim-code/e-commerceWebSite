@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+ 
+*{font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.navbar{
+    background-color: aqua !important;;
+}
+.dropdown-item {
+  padding: 10px 20px; /* Add more padding to create the pill shape */
+  border-radius: 50px; /* Fully rounded corners for the pill shape */
+  margin: 5px 0; /* Space between items */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover and click effects */
+}
+
+/* Hover effect */
+.dropdown-item:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+  transform: translateY(-2px); /* Small lift on hover */
+}
+
+/* Divider style */
+.dropdown-divider {
+  border-color: rgba(0, 123, 255, 0.3);
+}
+
+
+
+
+.about-header {
+  background: url('image/about-bg.jpg') no-repeat center center/cover;
+  color: rgb(30, 28, 28);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.mission-section, .team-section,.values-section {
+  padding: 30px 0;
+  animation: fadeInSlideUp 5s forwards;
+}
+.mission-section h2, .team-section h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.team-member h5 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+
+.carousel-item img{
+  height: 100vh;
+
+}
+.myicon{
+  color: aqua;
+  font-size: 30px;
+
+}
+.carousel-caption {
+  background-color: rgba(221, 224, 227, 0.822);
+  border-radius: 20px;
+  bottom: 8rem;
+}
+.carousel-caption:hover {
+  background-color:rgb(139, 142, 142);
+  transition:ease .3s
+}
+.bg-black:hover{
+  background-color: rgba(244, 177, 9, 0.969) !important;
+  border-radius: 20px;
+  transition: 1s ease all;
+}
+.carousel-indicators button{
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50%  !important;
+  background-color: aqua !important;
+
+}
+/*prodact*/
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.card-img-top {
+    height: 180px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.text-danger {
+    font-weight: bold;
+}
+
+/**/
+
+
+
+
+
+/**/
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-3 {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 300%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.card h5 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.card .price {
+  color: red;
+  font-weight: bold;
+}
+
+.card .acheter-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.card .acheter-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Modal styling */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.modal-content h5 {
+  margin-bottom: 10px;
+}
+
+.modal-content p {
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.confirm {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.cancel {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+.carousel-image {
+  height: 250px; /* Set a consistent height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+
+
+.text-center{
+  font-size: 2.5rem; /* Increase the font size */
+  font-weight: bold; /* Make the title bold */
+  color: #ff5733; /* Add a striking color, adjust as necessary */
+  text-transform: uppercase; /* Make the text uppercase */
+  letter-spacing: 2px; /* Add some spacing between letters */
+  padding: 20px 0; /* Add some space above and below the title */
+  background: linear-gradient(to right, #ff5733, #ffc300); /* Add a gradient background */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  color: transparent; /* Make the rest of the text transparent to show the background */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+}
+
+
+/* Form Container Styling */
+.container {
+  background-color: #f9f9f9; /* Light background */
+  border-radius: 10px; /* Smooth rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Form Title */
+.form-title {
+  font-family: 'Poppins', sans-serif; /* Modern, clean font */
+  font-size: 2rem;
+  color: #343a40; /* Darker color for contrast */
+}
+
+.form-subtitle {
+  font-size: 1rem;
+  color: #6c757d; /* Muted color for subtitle */
+  margin-top: -10px; /* Adjust positioning */
+}
+
+/* Input Fields */
+.form-control {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 5px; /* Soft corners */
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Change border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Subtle blue glow */
+}
+
+/* Labels */
+.form-label {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #007bff; /* Standard Bootstrap blue */
+  border-color: #007bff;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker on hover */
+}
+
+/* Checkbox */
+.form-check-input {
+  width: 1.25em;
+  height: 1.25em;
+  cursor: pointer;
+}
+
+/* Small Text */
+.form-text {
+  font-size: 0.875rem;
+  color: #6c757d; /* Muted text */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+}
+ 
+
+
+
+/* Form Container Styling */
+.container {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Form Title */
+.form-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.form-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: -10px;
+}
+
+/* Input Fields */
+.form-control {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Labels */
+.form-label {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+/* Section Title */
+.form-section-title {
+  font-size: 1.25rem;
+  color: #343a40;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Service Section Styling */
+
+
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+/* Service Box Styling */
+.service-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #e1e1e1;
+}
+
+.service-box:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.service-icon {
+  color: #007bff;
+}
+
+.service-box:hover .service-icon {
+  color: white;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: 10px;
+}
+
+.service-box:hover .service-description {
+  color: white;
+}
+
+
+/* Caption Container Styling */
+.caption-container {
+  display: inline-block;
+  padding: 15px 30px; /* Padding around the caption */
+  background-color: #f8f9fa; /* Light background color for the caption */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  opacity: 0; /* Start hidden for animation effect */
+  animation: fadeInSlideUp 5s forwards; /* Apply animation */
+}
+
+/* Caption Title Styling */
+.caption-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem; /* Adjust as needed */
+  font-weight: 700;
+  color: #343a40; /* Dark color for text */
+  margin: 0; /* Remove default margin */
+  text-transform: uppercase; /* Capitalizes text for emphasis */
+  line-height: 1.2; /* Space between lines for readability */
+}
+
+/* Animation Keyframes */
+@keyframes fadeInSlideUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px); /* Start slightly below the original position */
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0); /* End at the original position */
+  }
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+  .caption-title {
+      font-size: 2rem; /* Slightly smaller font size for mobile */
+  }
+}
+
+
+
+.display-4 {
+  color: #343a40;
+}
+
+.lead {
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-lg {
+  font-size: 1.25rem;
+  padding: 0.75rem 1.25rem;
+}
+
+
+
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #343a40;
+}
+
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icon {
+  font-size: 2rem;
+  color: #343a40; /* Color of icons */
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Color on hover */
+}
+.send{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.send:hover{
+  background-color: goldenrod !important;
+  border-radius: 20px;
+  transition: 1s ease all;
+}

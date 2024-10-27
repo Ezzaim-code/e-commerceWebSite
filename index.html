@@ -1,0 +1,1234 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>hello world</title>
+    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+
+  
+        <link rel="stylesheet" href="css/Style.css">
+
+</head>
+<body>
+    <nav class="navbar fixed-top w-100 bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#main">
+            <img src="image/logo1.png"  width="50" height="50" class="rounded-5" alert="">
+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-dark" aria-current="page" href="#main">Main</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#about">About</a>
+
+              </li>
+              <li class="nav-item dropdown w-25 h-25">
+                <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Page
+                </a>
+                <ul class="dropdown-menu bg-primary-subtle text-center">
+                  <li><a class="dropdown-item text-info" href="#newBoutique">New Boutique</a></li>
+                  <li><a class="dropdown-item text-info" href="#"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-info" href="#Promotion">Promotion</a></li>
+                  <li><a class="dropdown-item text-info" href="#products">The most purchased products</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#service">Service</a>
+            </li>
+            
+            <!-- New "Contact" Menu Item -->
+            <li class="nav-item">
+                <a class="nav-link text-black" href="#contact">Contact</a>
+            </li>
+             
+             
+
+             
+            </ul>
+
+            <div class="d-flex">
+                <a class="nav-link text-light" href="#login">
+                    <button class="btn btn-outline-info me-2">Login</button>
+                </a>
+                <a class="nav-link text-light" href="#signUp">
+                    <button class="btn btn-outline-info">Sign up</button>
+                </a>
+            </div>
+
+            <!-- Shopping Cart -->
+            <div class="d-flex align-items-center ms-3">
+                <span class="text-light me-2">Ajouter</span>
+                <i id="text" class="fa-solid fa-cart-shopping text-warning"></i>
+            </div>
+        </div>
+    </div>
+      </nav>
+      <!--carseul-->
+      <section id="main" class="pt-5">
+      
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/top1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+        
+              <p>Shop Smarter, Live Better</p>
+              <button  onclick="window.location.href='#payer'" class="btn bg-secondary">shoping</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/top2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+           
+              <p>Your One-Stop Shop for Everything</p>
+              <button  onclick="window.location.href='#payer'" class="btn bg-secondary">shoping</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/shoping1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+           
+              <p>Unbeatable Prices, Unmatched Quality</p>
+              <button  onclick="window.location.href='#payer'" class="btn bg-secondary">shoping</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/shoping6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+              <p>Shop Now, Enjoy Later</p>
+              <button  onclick="window.location.href='#payer'" class="btn bg-secondary">shoping</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <i class="fa-solid fa-angles-left myicon"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <i class="fa-solid fa-angles-right myicon"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Header Section -->
+     <section id="about" class="pt-5">
+    <header class="about-header">
+        <div>
+            <h1>About Our Company</h1>
+            <p>Delivering excellence in e-commerce since 2015.</p>
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section class="mission-section bg-light">
+        <div class="container text-center">
+            <h2 class="text-primary fw-bold mb-4">Our Mission</h2>
+            <p class="lead text-dark mb-5">
+                Our mission is to provide high-quality products that meet the evolving needs of our customers. We aim to enhance the online shopping experience by delivering exceptional customer service, fast delivery, and a wide range of products, all at competitive prices.
+            </p>
+        </div>
+    </section>
+
+  <!-- Values Section -->
+<section class="values-section py-5">
+    <div class="container   text-center" >
+        <h2 class="text-primary fw-bold mb-4">Our Values</h2>
+        <p class="lead mb-5">
+            At the core of our business, we believe in:
+        </p>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow h-100">
+                    <div class="card-body">
+                        <h4 class="text-primary">Customer Satisfaction</h4>
+                        <p class="text-muted">We prioritize our customers by ensuring their needs are met and their expectations exceeded.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow h-100">
+                    <div class="card-body">
+                        <h4 class="text-primary">Innovation</h4>
+                        <p class="text-muted">We embrace technology and innovation to provide the best shopping experience possible.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card border-0 shadow h-100">
+                    <div class="card-body">
+                        <h4 class="text-primary">Integrity</h4>
+                        <p class="text-muted">We operate with honesty, transparency, and trustworthiness in all our dealings.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section bg-light py-5">
+    <div class="container text-center">
+        <h2 class="text-primary fw-bold mb-4"> Our Team</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-member">
+                    <img src="image/team4.jpeg" class="rounded-circle shadow mb-3" alt="John Doe" width="150" height="150">
+                    <h5 class="text-info">Team1</h5>
+                    <p class="text-muted">Founder & CEO</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-member">
+                    <img src="image/images (9).jpeg" class="rounded-circle shadow mb-3" alt="Jane Smith" width="150" height="150">
+                    <h5 class="text-info">Team2</h5>
+                    <p class="text-muted">Chief Marketing Officer</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="team-member">
+                    <img src="image/images (8).jpeg" class="rounded-circle shadow mb-3" alt="Sam Lee" width="150" height="150">
+                    <h5 class="text-info">Team3</h5>
+                    <p class="text-muted">Head of Product</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-primary text-light text-center fw-bold py-4">
+    <p class="text-primary">&copy; 2024 Your E-commerce Website. All rights reserved.</p>
+</footer>
+
+     <!--prodact-->
+      <!-- Product Section -->
+      <section id="newBoutique" class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <div class="caption-container">
+                    <h2 class="caption-title animate"> New Boutique</h2>
+                </div>
+            </div>
+            
+            
+        </div>
+      <div class="row">
+          <!-- Product 1 with carousel -->
+          <div class="col-md-4">
+            <div id="slide" class="carousel slide float-start" data-bs-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="2"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="3"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="4"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="5"></li>
+                    <li data-bs-target="#slide" data-bs-slide-to="6"></li>
+                   
+                    
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/chpouiseur18.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+           
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/chouseur11.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/chouseur13.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="image/chpouiseur18.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+           
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="image\chouseur12.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+           
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="image/chouseur10.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+           
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="image/chouseur2.jpg" alt="" class="w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Best scoffers with all type class and sport</p>
+                        </div>
+           
+                    </div>
+                   
+                   
+                </div>
+                <a href="#slide" class="carousel-control-next text-info" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+                
+                <a href="#slide" class="carousel-control-prev text-info" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+            </div>
+            
+    
+    
+            </div>
+
+
+            <div class="col-md-4">
+                <div id="slide" class="carousel slide float-start" data-bs-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="4"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="5"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="6"></li>
+                        
+                    </ul>
+                    <div class="carousel-inner">
+                       
+                        <div class="carousel-item active">
+                            <img src="image/images (2).jpeg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/robe3.jpg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/images (1).jpeg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/images (3).jpeg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/robe1.jpg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="image/images.jpeg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/apparel-business-t-shirt-design-idea.jpg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/6fe7884d170a29c134d111d0da43842e.jpg" alt="" class="w-100">
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Clothes with a hieght Quality</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#slide" class="carousel-control-next" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    
+                    <a href="#slide" class="carousel-control-prev" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                </div>
+                
+        
+        
+                </div>
+
+                <div class="col-md-4">
+                    <div id="slide" class="carousel slide float-start" data-bs-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="2"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="3"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="4"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="5"></li>
+                            <li data-bs-target="#slide" data-bs-slide-to="6"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image/images (6).jpeg" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                   
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/images (5).jpeg" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/images (4).jpeg" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/istockphoto-1221134337-612x612.jpg" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/b1.jpg" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/b3.jpg" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/b4.jp" alt="" class="w-100">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <p>Best pants</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#slide" class="carousel-control-next" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        
+                        <a href="#slide" class="carousel-control-prev" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                    </div>
+                    
+            
+            
+                    </div>
+      </div>
+    </div>
+    
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+<section id="Promotion" class="pt-5">
+
+     <div class="container">
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <div class="caption-container">
+                    <h2 class="caption-title animate">Promotion</h2>
+                </div>
+            </div>
+            
+            
+        </div>
+     <div class="row">
+      
+      <!-- Product 1 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/images (1).jpeg" alt="Product 1">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">comment...</p>
+                  <p class="text-danger"><strong>99,99 €</strong> <span class="text-muted"><del>159,99 €</del></span></p>
+                  <p><span class="badge badge-success">-37%</span></p>
+                  <button onclick="changeFontColor()" class="btn bg-black text-white ">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/images (2).jpeg" alt="Product 2">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">comment...</p>
+                  <p class="text-danger"><strong>149,99 €</strong> <span class="text-muted"><del>199,99 €</del></span></p>
+                  <p><span class="badge badge-success">-25%</span></p>
+                  <button class="btn bg-black text-white ">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/apparel-business-t-shirt-design-idea.jpg" alt="Product 3">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">comment...</p>
+                  <p class="text-danger"><strong>129,99 €</strong> <span class="text-muted"><del>169,99 €</del></span></p>
+                  <p><span class="badge badge-success">-23%</span></p>
+                  <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/images (4).jpeg" alt="Product 4">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">comment...</p>
+                  <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+                  <p><span class="badge badge-success">-25%</span></p>
+                  <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+  <div class="row">
+      
+    <!-- Product 1 -->
+    <div class="col-md-3">
+        <div class="card">
+            <img class="card-img-top w-75" src="image/b4.jpg" alt="Product 1">
+            <div class="card-body">
+                <h5 class="card-title">Mark...</h5>
+                <p class="card-text">comment...</p>
+                <p class="text-danger"><strong>99,99 €</strong> <span class="text-muted"><del>159,99 €</del></span></p>
+                <p><span class="badge badge-success">-37%</span></p>
+                <button class="btn bg-black text-white">Ajouter dans le panier</button>
+            </div>
+        </div>
+    </div>
+    <!-- Product 2 -->
+    <div class="col-md-3">
+        <div class="card">
+            <img class="card-img-top w-75" src="image/b1.jpg" alt="Product 2">
+            <div class="card-body">
+                <h5 class="card-title">Mark...</h5>
+                <p class="card-text">Comment...</p>
+                <p class="text-danger"><strong>149,99 €</strong> <span class="text-muted"><del>199,99 €</del></span></p>
+                <p><span class="badge badge-success">-25%</span></p>
+                <button class="btn bg-black text-white">Ajouter dans le panier</button>
+            </div>
+        </div>
+    </div>
+    <!-- Product 3 -->
+    <div class="col-md-3">
+        <div class="card">
+            <img class="card-img-top w-75" src="image/b2.jpg" alt="Product 3">
+            <div class="card-body">
+                <h5 class="card-title">Mark...</h5>
+                <p class="card-text">Comment...</p>
+                <p class="text-danger"><strong>129,99 €</strong> <span class="text-muted"><del>169,99 €</del></span></p>
+                <p><span class="badge badge-success">-23%</span></p>
+                <button id="text" class="btn bg-black text-white">Ajouter dans le panier</button>
+            </div>
+        </div>
+    </div>
+    <!-- Product 4 -->
+    <div class="col-md-3">
+        <div class="card">
+            <img class="card-img-top w-75" src="image/b3.jpg" alt="Product 4">
+            <div class="card-body">
+                <h5 class="card-title">Mark...</h5>
+                <p class="card-text">Comment...</p>
+                <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+                <p><span class="badge badge-success">-25%</span></p>
+                <button class="btn bg-black text-white">Ajouter dans le panier</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="row">
+      
+      <!-- Product 1 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/chouseur2.jpg" alt="Product 1">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">Comment...</p>
+                  <p class="text-danger"><strong>99,99 €</strong> <span class="text-muted"><del>159,99 €</del></span></p>
+                  <p><span class="badge badge-success">-37%</span></p>
+                  <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/chouseur20.jpg" alt="Product 2">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">Comment...</p>
+                  <p class="text-danger"><strong>149,99 €</strong> <span class="text-muted"><del>199,99 €</del></span></p>
+                  <p><span class="badge badge-success">-25%</span></p>
+                  <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/chouseur10.jpg" alt="Product 3">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">comment...</p>
+                  <p class="text-danger"><strong>129,99 €</strong> <span class="text-muted"><del>169,99 €</del></span></p>
+                  <p><span class="badge badge-success">-23%</span></p>
+                  <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <!-- Product 4 -->
+      <div class="col-md-3">
+          <div class="card">
+              <img class="card-img-top w-75" src="image/choo21.jpg" alt="Product 4">
+              <div class="card-body">
+                  <h5 class="card-title">Mark...</h5>
+                  <p class="card-text">Comment...</p>
+                  <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+                  <p><span class="badge badge-success">-25%</span></p>
+                  <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+      
+        <!-- Product 1 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top w-75" src="image/robe3.jpg" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Mark...</h5>
+                    <p class="card-text">comment...</p>
+                    <p class="text-danger"><strong>99,99 €</strong> <span class="text-muted"><del>159,99 €</del></span></p>
+                    <p><span class="badge badge-success">-37%</span></p>
+                    <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                </div>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top w-75" src="image/robe2.jpg" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Mark...</h5>
+                    <p class="card-text">comment...</p>
+                    <p class="text-danger"><strong>149,99 €</strong> <span class="text-muted"><del>199,99 €</del></span></p>
+                    <p><span class="badge badge-success">-25%</span></p>
+                    <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                </div>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top w-75" src="image/robe1.jpg" alt="Product 3">
+                <div class="card-body">
+                    <h5 class="card-title">Mark...</h5>
+                    <p class="card-text">Comment...</p>
+                    <p class="text-danger"><strong>129,99 €</strong> <span class="text-muted"><del>169,99 €</del></span></p>
+                    <p><span class="badge badge-success">-23%</span></p>
+                    <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                </div>
+            </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top w-75" src="image/robe5.jpg" alt="Product 4">
+                <div class="card-body">
+                    <h5 class="card-title">Mark...</h5>
+                    <p class="card-text">Comment...</p>
+                    <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+                    <p><span class="badge badge-success">-25%</span></p>
+                    <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+
+
+      
+          <!-- Product 1 -->
+          <div class="col-md-3">
+              <div class="card">
+                  <img class="card-img-top w-75" src="image/chouseur8.jpg" alt="Product 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Mark...</h5>
+                      <p class="card-text">Comment...</p>
+                      <p class="text-danger"><strong>99,99 €</strong> <span class="text-muted"><del>159,99 €</del></span></p>
+                      <p><span class="badge badge-success">-37%</span></p>
+                      <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                  </div>
+              </div>
+          </div>
+          <!-- Product 2 -->
+          <div class="col-md-3">
+              <div class="card">
+                  <img class="card-img-top w-75" src="image/chouseur17.jpg" alt="Product 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Mark...</h5>
+                      <p class="card-text">Comment...</p>
+                      <p class="text-danger"><strong>149,99 €</strong> <span class="text-muted"><del>199,99 €</del></span></p>
+                      <p><span class="badge badge-success">-25%</span></p>
+                      <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                  </div>
+              </div>
+          </div>
+          <!-- Product 3 -->
+          <div class="col-md-3">
+              <div class="card">
+                  <img class="card-img-top w-75" src="image/chouseur14.jpg" alt="Product 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Mark...</h5>
+                      <p class="card-text">Commment...</p>
+                      <p class="text-danger"><strong>129,99 €</strong> <span class="text-muted"><del>169,99 €</del></span></p>
+                      <p><span class="badge badge-success">-23%</span></p>
+                      <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                  </div>
+              </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="col-md-3">
+              <div class="card">
+                  <img class="card-img-top w-75" src="image/chouseu7.jpg" alt="Product 4">
+                  <div class="card-body">
+                      <h5 class="card-title">Mark...</h5>
+                      <p class="card-text">comment...</p>
+                      <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+                      <p><span class="badge badge-success">-25%</span></p>
+                      <button class="btn bg-black text-white">Ajouter dans le panier</button>
+                  </div>
+              </div>
+          </div>
+  </div>
+</section>
+<section id="products" class="pt-5">
+  <div class="container">
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <div class="caption-container">
+                <h2 class="caption-title animate">Famous Product</h2>
+            </div>
+        </div>
+        
+        
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top w-75" src="image/robe3.jpg" alt="Product 4">
+          <div class="card-body">
+              <h5 class="card-title">Mark...</h5>
+              <p class="card-text">Commet...</p>
+              <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+              <p><span class="badge badge-success">-25%</span></p>
+              <button class="btn bg-black text-white">Ajouter dans le panier</button>
+          </div>
+      </div>
+
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top w-75" src="image/images (6).jpeg" alt="Product 4">
+          <div class="card-body">
+              <h5 class="card-title">Mark...</h5>
+              <p class="card-text">Comment...</p>
+              <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+              <p><span class="badge badge-success">-25%</span></p>
+              <button class="btn bg-black text-white">Ajouter dans le panier</button>
+          </div>
+      </div>
+
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top w-75" src="image/images (5).jpeg" alt="Product 4">
+          <div class="card-body">
+              <h5 class="card-title">Mark...</h5>
+              <p class="card-text">Comment...</p>
+              <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+              <p><span class="badge badge-success">-25%</span></p>
+              <button class="btn bg-black text-white">Ajouter dans le panier</button>
+          </div>
+      </div>
+
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top w-75" src="image/chouseu9.jpg" alt="Product 4">
+          <div class="card-body">
+              <h5 class="card-title">mark...</h5>
+              <p class="card-text">Comment...</p>
+              <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+              <p><span class="badge badge-success">-25%</span></p>
+              <button class="btn bg-black text-white">Ajouter dans le panier</button>
+          </div>
+      </div>
+
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top w-75" src="image/chouseur13.jpg" alt="Product 4">
+          <div class="card-body">
+              <h5 class="card-title">Mark...</h5>
+              <p class="card-text">comment...</p>
+              <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+              <p><span class="badge badge-success">-25%</span></p>
+              <button class="btn bg-black text-white">Ajouter dans le panier</button>
+          </div>
+      </div>
+
+      </div>
+      <div class="col-4">
+        <div class="card">
+          <img class="card-img-top w-75" src="image/chouseur10.jpg" alt="Product 4">
+          <div class="card-body">
+              <h5 class="card-title">mark...</h5>
+              <p class="card-text">comment...</p>
+              <p class="text-danger"><strong>59,99 €</strong> <span class="text-muted"><del>79,99 €</del></span></p>
+              <p><span class="badge badge-success">-25%</span></p>
+              <button class="btn bg-black text-white">Ajouter dans le panier</button>
+              
+          </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--Login-->
+<section id="login" class="pt-5">
+    <div class="row">
+    <div class="container w-50 mt-5 p-4 border rounded shadow-lg bg-white">
+      <div class="row">
+          <div class="col text-center mb-4">
+              <h2 class="form-title">Login</h2>
+              <p class="form-subtitle">Hello in our shopping online</p>
+          </div>
+      </div>
+  
+      <div class="row">
+          <form>
+              <!-- Email Input -->
+              <div class="form-group mb-4">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                  <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+  
+              <!-- Password Input -->
+              <div class="form-group mb-4">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" id="password" class="form-control" placeholder="Enter your password">
+              </div>
+          </form>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+
+  <!--formailaire-->
+  <section id="signUp" class="pt-5">
+  <div class="row">
+  <div class="container w-50 mt-5 p-4 border rounded shadow-lg bg-white">
+    <div class="row">
+        <div class="col text-center mb-4">
+            <h2 class="form-title">Sign Up</h2>
+            <p class="form-subtitle">Please fill in the details below</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <form>
+            <!-- Email Input -->
+            <div class="form-group mb-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+            <!-- Password Input -->
+            <div class="form-group mb-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter your password">
+            </div>
+            <div class="form-group mb-4">
+                <label for="password" class="form-label">Confirm Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter your password">
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" id="check">
+                <label class="form-check-label" for="check">Remember me</label>
+            </div>
+
+            <!-- Country Selection -->
+            <div class="form-group mb-4">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-control" id="country">
+                    <option>Morocco</option>
+                    <option>France</option>
+                    <option>Portugal</option>
+                    <option>Spain</option>
+                    <option>Turkey</option>
+                </select>
+            </div>
+
+            <!-- City Selection -->
+            <div class="form-group mb-4">
+                <label for="city" class="form-label">City</label>
+                <select class="form-control" id="city">
+                    <option>Casablanca</option>
+                    <option>Paris</option>
+                    <option>Lisbon</option>
+                    <option>Madrid</option>
+                    <option>Istanbul</option>
+                </select>
+            </div>
+
+            <!-- Comment Section -->
+            <div class="form-group mb-4">
+                <label for="comment" class="form-label">Leave a Comment</label>
+                <textarea id="comment" class="form-control" rows="4" placeholder="Write your comment about the product"></textarea>
+            </div>
+
+            <!-- Product Rating -->
+            <div class="form-group mb-4">
+                <label for="rating" class="form-label">Rate the Product</label>
+                <select id="rating" class="form-control">
+                    <option value="" disabled selected>Select your rating</option>
+                    <option>1 - Very Poor</option>
+                    <option>2 - Poor</option>
+                    <option>3 - Average</option>
+                    <option>4 - Good</option>
+                    <option>5 - Excellent</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+    </div>
+</div>
+</div>
+</section>
+<section id="payer" class="pt-5">
+<div class="row">
+<div class="container w-50 mt-5 p-4 border rounded shadow-lg bg-white">
+    <div class="row">
+        <div class="col text-center mb-4">
+            <h2 class="form-title">Online Payment</h2>
+            <p class="form-subtitle">Secure and quick payment</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <form>
+            <!-- Cardholder Name -->
+            <div class="form-group mb-4">
+                <label for="cardName" class="form-label">Cardholder Name</label>
+                <input type="text" id="cardName" class="form-control" placeholder="Enter cardholder name" required>
+            </div>
+
+            <!-- Card Number -->
+            <div class="form-group mb-4">
+                <label for="cardNumber" class="form-label">Card Number</label>
+                <input type="text" id="cardNumber" class="form-control" placeholder="1234 5678 9123 4567" maxlength="19" required>
+            </div>
+
+            <!-- Expiration Date and CVV -->
+            <div class="form-row mb-4">
+                <div class="form-group col-md-6">
+                    <label for="expiryDate" class="form-label">Expiration Date</label>
+                    <input type="month" id="expiryDate" class="form-control" required>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="cvv" class="form-label">CVV</label>
+                    <input type="text" id="cvv" class="form-control" placeholder="123" maxlength="3" required>
+                </div>
+            </div>
+
+            <!-- Billing Address -->
+            <h5 class="form-section-title">Billing Address</h5>
+
+            <div class="form-group mb-4">
+                <label for="billingAddress" class="form-label">Address</label>
+                <input type="text" id="billingAddress" class="form-control" placeholder="1234 Main St" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="billingCity" class="form-label">City</label>
+                <input type="text" id="billingCity" class="form-control" placeholder="City" required>
+            </div>
+
+            <div class="form-group mb-4">
+                <label for="billingCountry" class="form-label">Country</label>
+                <select id="billingCountry" class="form-control" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option>Morocco</option>
+                    <option>France</option>
+                    <option>Portugal</option>
+                    <option>Spain</option>
+                    <option>Turkey</option>
+                </select>
+            </div>
+
+            <!-- ZIP Code -->
+            <div class="form-group mb-4">
+                <label for="zipCode" class="form-label">ZIP Code</label>
+                <input type="text" id="zipCode" class="form-control" placeholder="ZIP Code" required>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">Pay Now</button>
+        </form>
+    </div>
+</div>
+</div>
+</section>
+<!--service-->
+<section id="service" class="pt-5">
+<div class="row">
+    <div class="container my-5 py-5">
+        <div class="row text-center mb-4">
+            <div class="col">
+                <h2 class="section-title">Why Shop with Us?</h2>
+                <p class="section-subtitle">Discover the benefits of shopping at our online store</p>
+            </div>
+        </div>
+    
+        <div class="row text-center">
+            <!-- Service 1: Fast Delivery -->
+            <div class="col-md-4 mb-5">
+                <div class="service-box p-4 shadow-sm rounded">
+                    <div class="service-icon mb-3">
+                        <i class="fas fa-shipping-fast fa-3x"></i>
+                    </div>
+                    <h5 class="service-title">Fast Delivery</h5>
+                    <p class="service-description">Get your orders delivered quickly and on time, no matter where you are.</p>
+                </div>
+            </div>
+    
+            <!-- Service 2: Secure Payment -->
+            <div class="col-md-4 mb-5">
+                <div class="service-box p-4 shadow-sm rounded">
+                    <div class="service-icon mb-3">
+                        <i class="fas fa-lock fa-3x"></i>
+                    </div>
+                    <h5 class="service-title">Secure Payment</h5>
+                    <p class="service-description">Your data is safe with our industry-standard security measures for hassle-free payments.</p>
+                </div>
+            </div>
+    
+            <!-- Service 3: 24/7 Customer Support -->
+            <div class="col-md-4 mb-5">
+                <div class="service-box p-4 shadow-sm rounded">
+                    <div class="service-icon mb-3">
+                        <i class="fas fa-headset fa-3x"></i>
+                    </div>
+                    <h5 class="service-title">24/7 Customer Support</h5>
+                    <p class="service-description">We are here to assist you with any inquiries or concerns, anytime, anywhere.</p>
+                </div>
+            </div>
+    
+            <!-- Service 4: Wide Product Range -->
+            <div class="col-md-4 mb-5">
+                <div class="service-box p-4 shadow-sm rounded">
+                    <div class="service-icon mb-3">
+                        <i class="fas fa-tags fa-3x"></i>
+                    </div>
+                    <h5 class="service-title">Wide Product Range</h5>
+                    <p class="service-description">Choose from a vast selection of products across different categories at competitive prices.</p>
+                </div>
+            </div>
+    
+            <!-- Service 5: Easy Returns -->
+            <div class="col-md-4 mb-5">
+                <div class="service-box p-4 shadow-sm rounded">
+                    <div class="service-icon mb-3">
+                        <i class="fas fa-undo-alt fa-3x"></i>
+                    </div>
+                    <h5 class="service-title">Easy Returns</h5>
+                    <p class="service-description">If you're not satisfied, our simple return process ensures a smooth experience.</p>
+                </div>
+            </div>
+    
+            <!-- Service 6: Loyalty Program -->
+            <div class="col-md-4 mb-5">
+                <div class="service-box p-4 shadow-sm rounded">
+                    <div class="service-icon mb-3">
+                        <i class="fas fa-gift fa-3x"></i>
+                    </div>
+                    <h5 class="service-title">Loyalty Program</h5>
+                    <p class="service-description">Earn rewards and exclusive offers every time you shop with us.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</section>
+
+<div class="row">
+    <div class="container my-5 py-5 text-center">
+        <h1 class="display-4 mb-4">Thank You for Your Purchase!</h1>
+        <p class="lead mb-4">Your order has been successfully processed. We appreciate your business!</p>
+        <p class="lead mb-4">You will receive an email confirmation shortly with details of your order and a tracking number.</p>
+        <a href="index.html" class="btn btn-primary btn-lg">Return to Home</a>
+        <a href="shop.html" class="btn btn-secondary btn-lg ml-2">Continue Shopping</a>
+    </div>
+</div>
+
+
+
+
+<section id="contact" class="pt-5">
+<div class="row">
+    <div class="container my-5 py-5">
+        <div class="row text-center mb-4">
+            <div class="col">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch with us</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary send">Send Message</button>
+                </form>
+            </div>
+
+            <div class="col-md-6 mb-4">
+                <h4>Contact Information</h4>
+                <p><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> support@yourstore.com</p>
+                
+                <div class="social-media mt-4">
+                    <a href="https://facebook.com/yourstore" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/yourstore" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/1234567890" target="_blank" class="social-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://twitter.com/yourstore" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/all.min.js"></script>
+    
+</body>
+</html>
